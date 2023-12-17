@@ -1,0 +1,49 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 2 Ejercicio 2- Condiciones - Constanza Cabrera</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+</head>
+
+<body>
+
+<div class=indicacion>
+    <h1> Ejercicio 2</h1>
+   <p> Se debe construir una página web que permita pedir hasta 10 stickers de los 3 tipos disponibles. Para eso deberá existir un input debajo de cada imagen donde el usuario podrá ingresar un número. En caso de que la suma de todos los stickers seleccionados sea menor o igual 10 se indicará en un párrafo nuevo la cantidad de stickers llevados. Ejemplo "llevas 5 stickers" en cualquier otro caso se mostrará un texto que dice "Llevas demasiados stickers". </p>
+   <li> El párrafo muestra la cantidad de stickers seleccionados</li>
+   <li> El párrafo muestra que lleva demasiados stickers en caso de que la cantidad sea mayor que 10</li>
+   </div>
+   <section class=layout>
+     <h3> Por favor, ingresa la cantidad de stickers</h3>
+   
+   <div class=desarrollo>
+     <card> 
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Noto_Emoji_Oreo_1f934_1f3fd.svg/440px-Noto_Emoji_Oreo_1f934_1f3fd.svg.png" alt="rey">
+       <input id="cantidad1" type="text">
+     </card>
+     
+      <card> 
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/800px-Twemoji_1f600.svg.png" alt="foto sonriente">
+       <input id="cantidad2" type="text">
+     </card>
+     
+     <card> 
+     <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f308.png" alt="arcoiris">
+       <input id="cantidad3" type="text" min="0">
+       
+     </card>
+     
+     
+   </div>
+     <button onclick="quantity()" type="button"> Verificar </button>
+     
+    <p id="result"> </p>
+    
+   </section>
+<!-- conecta el js -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

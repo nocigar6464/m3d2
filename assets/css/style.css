@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+
+.beer {
+  width: 120px;
+  margin-top: 50px;
+}
+
+.highlight {
+  border: 2px dashed red;
+}
+
+.indicacion {
+  background-color: lightgrey;
+  padding: 20px;
+}
+.desarrollo {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.desarrollo img {
+  width: 120px;
+}
+card {
+  width: 180px;
+  height: 200px;
+  border-radius: 5px;
+  background: blue;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.h3 {
+  justify-content: center;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  color: blue;
+  border-color: blue;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.desarrollo3 {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.clave {
+  display: flex;
+}
